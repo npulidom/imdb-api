@@ -1,0 +1,13 @@
+#!/bin/sh
+
+TAG="latest"
+TIMEZONE="America/Santiago"
+
+# build
+docker build --build-arg timezone=$TIMEZONE -t npulidom/imdb-api:$TAG .
+echo "\n-> Build success\n"
+
+# image push
+if [ "$#" -ne 0 ] && [ "$1" = "push" ]; then
+	docker push npulidom/imdb-api:$TAG
+fi

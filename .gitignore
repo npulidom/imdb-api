@@ -1,0 +1,8 @@
+# Linux, OSX
+*~
+.directory
+.DS_Store
+
+# files
+*.log
+*.pyc
