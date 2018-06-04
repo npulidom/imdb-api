@@ -1,6 +1,8 @@
 IMDB python micro api
 =====================
 
+Micro API to fetch IMDB movie rating.
+
 #### Dependencies
 
 - Docker 17.x or greater.
