@@ -1,12 +1,6 @@
-# Linux, OSX
-*~
-.directory
-.DS_Store
-
-# git
-.git
-.gitignore
-
 # files
+*~
+.*
 *.md
 *.log
+LICENSE
